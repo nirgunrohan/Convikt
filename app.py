@@ -3,12 +3,12 @@ from utils import write_message
 from agent import generate_response
 
 # Page Config
-st.set_page_config("Pragya", page_icon=":movie_camera:")
+st.set_page_config("Rohan", page_icon=":movie_camera:")
 
 # Set up Session State
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi, I'm  your SRBmate!  How can I help you?"},
+        {"role": "assistant", "content": "Hi, I'm  your Legal Advisor! How can I help you?"},
     ]
 
 # Submit handler
