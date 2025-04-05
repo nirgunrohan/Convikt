@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_community
+langchain_groq
+langchain_chroma
+langchain_text_splitters
+google-generativeai
+python-dotenv
+PyPDF
